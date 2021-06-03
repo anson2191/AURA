@@ -70,7 +70,7 @@
 		</div>
 		
 		<div style="padding: 0 4vh;">
-			<div id="accept_button" onclick="location.href='./start'">
+			<div id="accept_button" @click="toStart()">
 
 				<font class="button_font">接受上述內容，預約初談</font>
 				
@@ -91,11 +91,16 @@ export default {
     components:{
         Nav,
         Footer
-    }
+    },
+	methods: {
+		toStart: function() {
+			this.$router.push("/start");
+		}
+	}
 }
 </script>
 
-<style rel="stylesheet" type="text/css">
+<style scoped rel="stylesheet" type="text/css">
 
 html{
 	scroll-behavior: smooth;
