@@ -3,9 +3,9 @@
   		<Nav showBackArrow=true />
 		<div id="layout_up">			
 			<div class="half_region">
-				<p1>讓Aura為你匹配心理師</p1>
+				<p4>讓Aura為你匹配心理師</p4>
 				
-				<p2>只需回答幾個問題，讓我們為您推薦</p2>
+				<p5>只需回答幾個問題，讓我們為您推薦</p5>
 				
 				<div class="short_button" onclick="location.href='./analysis'">
 					<font class="button_font">立即開始</font>
@@ -14,15 +14,15 @@
 			
 			<div id="middle">
 				<div class="middle_line"></div>
-				<p2>或</p2>
+				<p5>或</p5>
 				<div class="middle_line"></div>
 			</div>
 
 			<div class="half_region">
-				<p1>我想自己選</p1>
+				<p4>我想自己選</p4>
 				
-				<p2>適用於已經有想要的心理師，
-				<br>或只想快快預約到個人諮商的您</p2>
+				<p5>適用於已經有想要的心理師，
+				<br>或只想快快預約到個人諮商的您</p5>
 				
 				<div class="short_button" @click="pagechange">
 					<font class="button_font">預約時間</font>
@@ -50,7 +50,7 @@ export default {
 }
 </script>
 
-<style rel="stylesheet" type="text/css">
+<style scoped rel="stylesheet" type="text/css">
 html{
 	scroll-behavior: smooth;
 }
@@ -143,7 +143,7 @@ blockquote{
     align-items: center;
 }
 
-p1{
+p4{
 	font-family: Taipei Sans TC Beta;
 	font-style: normal;
 	font-weight: bold;
@@ -153,7 +153,7 @@ p1{
 	line-height: 4.72vh;
 }
 
-p2{
+p5{
 	font-family: Taipei Sans TC Beta;
 	font-style: normal;
 	font-weight: normal;
