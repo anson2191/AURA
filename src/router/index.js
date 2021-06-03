@@ -14,10 +14,13 @@ import reserve from '@/views/reserve.vue'
 import start from '@/views/start.vue'
 import analysis from '@/views/analysis.vue'
 import Otherresource from '@/views/Otherresource.vue'
-
-/* 新增 */
 import Press from '@/yo_0512/Press.vue'
 import PressQ1 from '@/yo_0512/PressQ1.vue'
+
+/* 新增 */
+import test from '@/views/test.vue'
+import Press2 from '@/views/Press.vue'
+import PressResult from '@/views/PressResult.vue'
 
 Vue.use(Router)
 
@@ -96,6 +99,21 @@ export default new Router({
       path: '/press/q1',
       name: 'PressQ1',
       component: PressQ1
+    },
+    {
+      path: '/test',
+      name: 'test',
+      component: test
+    },
+    {
+      path: '/Press2',
+      name: 'Press2',
+      component: Press2
+    },
+    {
+      path: '/Press/Result',
+      name: 'PressResult',
+      component: PressResult
     }
   ]
 })
